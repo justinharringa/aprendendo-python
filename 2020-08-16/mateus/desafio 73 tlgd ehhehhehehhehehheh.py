@@ -1,0 +1,8 @@
+tabela = ('Atlhetico Paranaense', 'Internacional', 'Atletico Mineiro', 'Grêmio', 'Atletico Goianiense', 'Vasco da Gama', 'Bahia', 'São Paulo', 'Sport', 'Bragantino', 'Botafogo', 'Palmeiras', 'Ceará', 'Fluminense', 'Santos', 'Corinthians', 'Goias', 'Coritiba', 'Fortaleza', 'Flamengo')
+print('Essa é a tabela do campeonato brasileiro :)')
+print('Esses são os primeiros 5 colocados', tabela[0:5])
+print('Esses são os ultimos 4 colocados', tabela[16:20])
+print('Essa é a tabela em ordem alfábetica', sorted(tabela))
+nums = (10, 3, 5, 6)
+print('nums sorted: {}'.format(sorted(nums, reverse=True)))
+print('A Chape caiu pra série B ;-;')
